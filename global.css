@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&display=swap");
+html {
+    scroll-behavior: smooth;
+    font-family: "Noto Sans KR", sans-serif;
+}
+body {
+    background-color: rgb(246, 247, 251);
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+}
+header {
+    padding-left: 10%;
+    padding-right: 10%;
+
+    background-color: white;
+    height: 50px;
+    box-shadow: rgb(133 139 146 / 6%) 8px 8px 16px 4px;
+
+    line-height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+header span{
+  flex-grow: 1;
+  text-align: left;
+}
+
+header .menu_list{
+  font-size: 14px;
+  font-weight: lighter;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .menu_list a{
+  margin-left: 15px;
+  text-decoration: none;
+  color: black;
+}
+header .menu_list a:hover{
+  text-decoration:none;
+}
+header .menu_list .current_target{
+  color: rgb(177,156,217);
+}
+
+.header_menu {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+.menu_item {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 5%;
+}
+article {
+    flex-grow: 1;
+}
+footer {
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: white;
+
+    height: 50px;
+    box-shadow: rgb(133 139 146 / 6%) 8px 8px 16px 4px;
+
+    text-align: center;
+    line-height: 50px;
+    font-size: 14px;
+    color: gray;
+}
